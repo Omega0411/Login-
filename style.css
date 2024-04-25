@@ -1,0 +1,266 @@
+body {
+    font-family: Roboto;
+    color: white;
+    font-size: medium;
+    background-image: url(./background.jpg);
+}
+header {
+    background-color: rgb(1, 28, 17, 0.85);
+    margin-top:10px;
+    margin-bottom: 90px;
+    height: 160px;
+    display: grid;
+    grid-auto-flow: row;
+    border-radius: 25px 25px 5px 5px;
+    box-shadow: 3px 3px 5px rgb(167, 163, 163, 0.5); 
+}
+#logo {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.863);
+    left: 140px;
+    top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px blue;
+}
+#labelUsername {
+    position: absolute;
+    color: white;
+    right: 190px;
+    top: 30px;
+}
+#inputUserName {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+#labelPassword {
+    position: absolute;
+    color: white;
+    right: 190px;
+    top: 80px;
+}
+#inputPassword {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+#logInBtn {
+    position: absolute;
+    right: 100px;
+    top: 136px;
+    padding: 5px;
+    width: 80px;
+    font-weight: bold;
+}
+#logInBtn:hover {
+    color: blue;
+    background-color: grey;
+}
+#logInBtn:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);
+}
+#homeHelloText {
+    position: absolute;
+    font-size: x-large;
+    margin-left: 250px;
+    top: 210px
+}
+#homeText {
+    position: absolute;
+    font-size: larger;
+    margin-left: 250px;
+    top: 250px
+}
+#newMemberBtn {
+    position: absolute;
+    left: 675px;
+    top: 305px;
+    padding: 5px;
+}
+#newMemberBtn:hover {
+    color: blue;
+    background-color: grey;
+}
+#newMemberBtn:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);
+}
+#logOutBtn {
+    position: absolute;
+    right: 50px;
+    top: 120px;
+    padding: 5px;
+}
+#logOutBtn:hover {
+    color: blue;
+    background-color: grey;
+}
+#logOutBtn:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);
+}
+#welcomeText {
+    position: absolute;
+    font-size: x-large;
+    margin-left: 450px;
+    top: 220px;
+    color: white;
+}
+#todoText {
+    position: absolute;
+    font-size: large;
+    margin-left: 450px;
+    top: 300px;
+    color: white;
+}
+#todoTextDel {
+    position: absolute;
+    font-size: large;
+    color: white;
+    margin-left: 450px;
+    top: 330px
+}
+#ToDo {
+    position: absolute;
+    margin-left: 15px;
+    top: 185px;
+    background-color: rgb(5, 36, 5);
+    width: 260px;
+    padding: 10px;
+    padding-left: 50px;
+    border-radius: 15px 0px 0px 0px;
+}
+#inputToDo {
+    position: absolute;
+    margin-left: 450px;
+    top: 400px
+}
+#saveToDoBtn:hover {
+    color: blue;
+    background-color: grey;
+}
+#saveToDoBtn:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);
+}
+#saveToDoBtn {
+    position: absolute;
+    margin-left: 450px;
+    top: 430px;
+    padding: 5px;
+}
+
+div {
+    margin-left: 15px ;
+    color: rgba(255, 255, 255, 0.931);
+    /* background-color: rgb(5, 36, 5); */
+    width: 300px;
+    padding: 10px;
+    padding-top: 8px;
+    
+
+    line-height: 1.6;
+    font-size: large;
+}
+#labelNewUsername {
+    position: absolute;
+    font-size: large;
+    margin-left: 370px;
+    top: 220px
+}
+#inputNewUserName {
+    position: absolute;
+    margin-left: 550px;
+    top: 220px
+}
+#labelNewPassword {
+    position: absolute;
+    font-size: large;
+    margin-left: 370px;
+    top: 250px;
+}
+#inputNewPassword {
+    position: absolute;
+    margin-left: 550px;
+    top: 250px;
+}
+#saveNewUserBtn {
+    position: absolute;
+    margin-left: 640px;
+    top: 285px;
+    padding: 5px;
+    width: 55px;
+    font-weight: bold;
+}
+#cancelButton {
+    position: absolute;
+    margin-left: 575px;
+    top: 285px;
+    padding: 5px;
+}
+#cancelButton:hover {
+    color: blue;
+    background-color: grey;
+}
+#cancelButton:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);
+}
+#saveNewUserBtn:hover {
+    color: blue;
+    background-color: grey;
+}
+#saveNewUserBtn:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);
+}
+#cancelBtn:hover {
+    color: blue;
+    background-color: grey;
+}  
+#cancelBtn:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);
+}  
+#invalidText {
+    position: absolute;
+    font-size: large;
+    margin-left: 450px;
+    top: 300px
+}
+#cancelBtn {
+    padding: 5px;
+    position: absolute;
+    margin-left: 600px;
+    top: 360px;
+}
+
+#logInBtn, #cancelButton, #saveNewUserBtn, #saveToDoBtn, #logOutBtn, #newMemberBtn, #cancelBtn {
+    background-color: rgb(165, 161, 161);
+    border-radius: 4px;
+    border: none;
+    box-shadow: 2px rgba(0,0,0,0.24);
+}
+
+#dogPicHome, #dogPicMember {
+    position:fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+/* footer {
+    background-color: rgb(1, 28, 17, 0.85);
+   
+    
+    margin-bottom: 10px;
+    height: 80px;
+    display: flex;
+    border-radius: 5px 5px 25px 25px;
+    box-shadow: 3px 3px 5px rgb(167, 163, 163, 0.5); 
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+} */
